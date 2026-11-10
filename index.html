@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IykeVisuals | Graphic Design, AI Commercials and Websites</title>
+<meta name="description" content="IykeVisuals is a creative studio offering graphic design, brand identity, AI-produced commercials and website development for small businesses, creators and startups. See my work and pricing.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="IykeVisuals | Graphic Design, AI Commercials and Websites">
+<meta property="og:description" content="IykeVisuals is a creative studio offering graphic design, brand identity, AI-produced commercials and website development for small businesses, creators and startups. See my work and pricing.">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ProfessionalService", "name": "IykeVisuals", "description": "Graphic design, brand identity, AI-produced commercials and website development for small businesses, creators and startups.", "founder": {"@type": "Person", "name": "Innocent Ikechukwu Emmanuel"}, "telephone": "+2348134886249", "email": "innocentikechukwu404@gmail.com", "sameAs": ["https://www.facebook.com/share/1CTV9Vco8U/", "https://www.tiktok.com/@iyke.visuals", "https://instagram.com/iyke.visuals", "https://x.com/iyke_visuals", "https://www.linkedin.com/in/ikechukwu-emmanuel-innocent-ba8a053a4", "https://substack.com/@iykevisuals"]}</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--wine:#3a0d19;--wine-deep:#240810;--cream:#f5ede1;--taupe:#b3a08c;--cocoa:#6a3d22;
+--paper:#f5ede1;--ink:#2a1016;--muted:#6b5a52;--line:rgba(42,16,22,.2);
+--display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;--body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#1d0a10;--ink:#f5ede1;--muted:#bba99c;--line:rgba(245,237,225,.22)}}
+:root[data-theme="dark"]{--paper:#1d0a10;--ink:#f5ede1;--muted:#bba99c;--line:rgba(245,237,225,.22)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--wine);font-family:var(--body);color:var(--cream);line-height:1.6}
+a{color:inherit}a:focus-visible{outline:3px solid var(--taupe);outline-offset:4px}
+.hero{position:relative;min-height:100vh;min-height:100svh;display:grid;grid-template-columns:1.05fr .95fr;align-items:end;
+background:radial-gradient(ellipse at 75% 35%,#5a1627 0%,var(--wine) 55%,var(--wine-deep) 100%);overflow:hidden}
+.hero-copy{padding:clamp(24px,6vw,88px);padding-bottom:clamp(40px,8vh,96px);align-self:center;max-width:640px}
+.who{font-size:1.05rem;color:var(--taupe);margin:0 0 18px;font-weight:500}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(3.4rem,10.5vw,8.6rem);line-height:.9;letter-spacing:-.04em;margin:0 0 28px}
+.intro{font-size:1.12rem;max-width:46ch;margin:0 0 14px;color:#eadfd2}
+.cta{display:inline-block;margin-top:22px;padding:14px 26px;background:var(--cream);color:var(--wine-deep);font-weight:600;text-decoration:none;border-radius:999px;transition:background .2s}
+.cta:hover{background:var(--taupe)}
+.hero-photo{align-self:end;justify-self:center;width:100%;max-width:760px;height:100%;display:flex;align-items:flex-end}
+.hero-photo img{display:block;width:100%;height:auto;max-height:100svh;object-fit:cover;object-position:top;
+-webkit-mask-image:linear-gradient(#000 78%,transparent);mask-image:linear-gradient(#000 78%,transparent)}
+.why{background:var(--paper);color:var(--ink);padding:clamp(64px,10vw,140px) clamp(24px,6vw,88px)}
+.why-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,7vw,110px);max-width:1280px;margin:0 auto}
+h2{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,5.4vw,4.6rem);line-height:1;letter-spacing:-.03em;margin:0 0 20px}
+.lede{color:var(--muted);max-width:36ch;font-size:1.1rem;margin:0}
+.reasons{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.reasons li{padding:30px 0;border-bottom:1px solid var(--line)}
+.reasons h3{font-family:var(--display);font-weight:500;font-size:1.55rem;letter-spacing:-.01em;margin:0 0 8px}
+.reasons p{margin:0;color:var(--muted);max-width:56ch}
+.process{background:var(--wine-deep);color:var(--cream);padding:clamp(64px,10vw,140px) clamp(24px,6vw,88px)}
+.process-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,7vw,110px);max-width:1280px;margin:0 auto}
+.process .lede{color:var(--taupe)}
+.tabs{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.tab{font:inherit;font-weight:600;padding:12px 22px;border-radius:999px;border:1.5px solid var(--taupe);background:transparent;color:var(--cream);cursor:pointer}
+.tab[aria-selected="true"]{background:var(--cream);color:var(--wine-deep);border-color:var(--cream)}
+.tab:focus-visible{outline:3px solid var(--taupe);outline-offset:3px}
+.pricing{background:var(--paper);color:var(--ink);padding:clamp(64px,10vw,140px) clamp(24px,6vw,88px)}
+.pricing-head{max-width:1280px;margin:0 auto 44px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px}
+.pricing-head h2{margin-bottom:12px}
+.cur{display:inline-flex;border:1.5px solid var(--line);border-radius:999px;padding:4px}
+.cur button{font:inherit;font-weight:600;border:0;background:transparent;color:var(--ink);padding:9px 20px;border-radius:999px;cursor:pointer}
+.cur button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.cur button:focus-visible{outline:3px solid var(--cocoa);outline-offset:2px}
+.plans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));max-width:1280px;margin:0 auto;border:1px solid var(--line)}
+.plan{padding:34px 28px;border-right:1px solid var(--line)}
+.plan:last-child{border-right:0}
+.plan h3{font-family:var(--display);font-weight:500;font-size:1.45rem;margin:0}
+.plan .for{color:var(--muted);margin:6px 0 0;font-size:.98rem}
+.price{font-family:var(--display);font-weight:800;font-size:2.5rem;letter-spacing:-.03em;line-height:1.1;margin:20px 0 0}
+.per{font-family:var(--body);font-weight:500;font-size:.95rem;letter-spacing:0;color:var(--muted)}
+.plan ul{padding-left:1.1rem;margin:18px 0 22px;color:var(--muted)}
+.plan li{margin-bottom:7px}
+.meta{border-top:1px solid var(--line);padding-top:14px;font-size:.95rem;color:var(--muted)}
+.meta p{margin:0 0 4px}.meta strong{color:var(--ink)}
+.pay{max-width:1280px;margin:28px auto 0;color:var(--muted)}
+.pay strong{color:var(--ink)}
+.contact{max-width:1280px;margin:44px auto 0;display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.btn{display:inline-block;padding:14px 26px;border-radius:999px;font-weight:600;text-decoration:none;border:1.5px solid var(--ink);color:var(--ink)}
+.btn.solid{background:var(--ink);color:var(--paper)}
+@media (max-width:820px){.plans{grid-template-columns:1fr}.plan{border-right:0;border-bottom:1px solid var(--line)}.plan:last-child{border-bottom:0}}
+.steps{list-style:none;margin:0;padding:0;counter-reset:step;position:relative}
+.steps::before{content:"";position:absolute;left:23px;top:12px;bottom:12px;width:2px;background:rgba(179,160,140,.35)}
+.steps li{position:relative;padding:0 0 38px 80px;counter-increment:step}
+.steps li:last-child{padding-bottom:0}
+.steps li::before{content:counter(step);position:absolute;left:0;top:0;width:48px;height:48px;border-radius:50%;background:var(--cream);color:var(--wine-deep);font-family:var(--display);font-weight:800;font-size:1.2rem;display:grid;place-items:center}
+.steps h3{font-family:var(--display);font-weight:500;font-size:1.55rem;letter-spacing:-.01em;margin:4px 0 8px}
+.steps p{margin:0;color:#d9cbbb;max-width:54ch}
+@media (max-width:820px){.process-grid{grid-template-columns:1fr}}
+@media (max-width:820px){
+.hero{grid-template-columns:1fr;grid-template-rows:auto auto}
+.hero-copy{padding-bottom:0;align-self:start;padding-top:clamp(40px,10vh,72px)}
+.hero-photo{max-width:480px}
+.why-grid{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.cta{transition:none}}
+.work{background:var(--wine);color:var(--cream);padding:clamp(64px,10vw,140px) clamp(24px,6vw,88px);border-top:1px solid rgba(179,160,140,.25)}
+.work-head{max-width:1100px;margin:0 auto}
+.work .lede{color:var(--taupe)}
+.reel{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,44px);max-width:1100px;margin:48px auto 0}
+.reel-item{margin:0}
+.reel-item video{display:block;width:100%;aspect-ratio:9/16;object-fit:cover;background:#000;border-radius:14px}
+.reel-item figcaption{display:flex;flex-direction:column;margin-top:14px}
+.reel-item strong{font-family:var(--display);font-weight:500;font-size:1.35rem}
+.reel-item figcaption>span{color:var(--taupe);font-size:.95rem}
+.reel{align-items:start}
+.idea{margin-top:18px;padding-top:16px;border-top:1px solid rgba(179,160,140,.3)}
+.idea h4{margin:0 0 10px;font-family:var(--body);font-weight:600;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe)}
+.idea p{margin:0 0 10px;font-size:.98rem;color:#e4d8c9}
+@media (max-width:820px){.reel{grid-template-columns:1fr;max-width:340px}}
+.ptabs{max-width:1280px;margin:0 auto 24px;display:flex;flex-wrap:wrap;gap:10px}
+.ptab{font:inherit;font-weight:600;padding:12px 22px;border-radius:999px;border:1.5px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+.ptab[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.ptab:focus-visible{outline:3px solid var(--cocoa);outline-offset:3px}
+.svc-wrap{max-width:1280px;margin:0 auto}
+.svc{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:clamp(20px,4vw,56px);padding:34px 0;border-top:1px solid var(--line)}
+.svc:last-child{border-bottom:1px solid var(--line)}
+.svc-info h3{font-family:var(--display);font-weight:500;font-size:1.6rem;margin:0 0 8px}
+.svc-info p{margin:0 0 8px;color:var(--muted)}
+.svc-info .small{font-size:.92rem}
+.tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:clamp(16px,2.5vw,32px)}
+.tier h4{margin:0;font-weight:600;font-size:1rem}
+.tier .tp{display:block;font-family:var(--display);font-weight:800;font-size:1.9rem;letter-spacing:-.03em;line-height:1.15;margin:4px 0 8px}
+.tier p{margin:0 0 8px;color:var(--muted);font-size:.97rem}
+.tier .when{color:var(--ink);font-size:.92rem;font-weight:500}
+@media (max-width:820px){.svc{grid-template-columns:1fr}}
+.wpanel[hidden]{display:none}
+.work .tabs{margin-top:28px}
+.project{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:clamp(24px,4vw,56px);max-width:1100px;margin:48px auto 0;align-items:start}
+.kicker{margin:0 0 8px;font-size:.8rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe)}
+.project h3{font-family:var(--display);font-weight:500;font-size:1.7rem;line-height:1.15;margin:0 0 16px}
+.project-text p{color:#e4d8c9}
+.strip-wrap{min-width:0}
+.strip{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px}
+.strip img{flex:0 0 min(260px,68vw);width:min(260px,68vw);height:auto;border-radius:10px;scroll-snap-align:start;display:block}
+.strip:focus-visible{outline:3px solid var(--taupe);outline-offset:4px}
+.hint{margin:6px 0 0;font-size:.9rem;color:var(--taupe)}
+@media (max-width:820px){.project{grid-template-columns:1fr}}
+.tier-full .tp{display:block;font-family:var(--display);font-weight:800;font-size:2.2rem;letter-spacing:-.03em;line-height:1.15}
+.tier-full .when{font-weight:500;margin:4px 0 14px}
+.tier-full h4,.details h4{margin:0 0 8px;font-weight:600;font-size:1rem}
+.tier-full ul,.details ul{margin:0;padding-left:1.1rem;color:var(--muted)}
+.tier-full li,.details li{margin-bottom:6px}
+.details{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:clamp(20px,3vw,40px);padding:30px 0;border-top:1px solid var(--line)}
+.note{margin:0;padding:14px 0;border-top:1px solid var(--line);color:var(--muted);max-width:90ch}
+.note strong{color:var(--ink)}
+.svc-wrap .note:last-child{border-bottom:1px solid var(--line)}
+.pk{margin:0 0 6px;font-size:.8rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pkgsep{margin-top:20px}
+.details h4.sub{margin-top:22px}
+.faq{padding:26px 0 0;border-top:1px solid var(--line)}
+.faq h4{margin:0 0 10px;font-size:1rem;font-weight:600}
+.faq details{border-bottom:1px solid var(--line);padding:12px 0}
+.faq summary{cursor:pointer;font-weight:500}
+.faq details p{margin:8px 0 0;color:var(--muted);max-width:70ch}
+.learn{background:var(--wine-deep);color:var(--cream);padding:clamp(64px,10vw,140px) clamp(24px,6vw,88px)}
+.shop{background:var(--paper);color:var(--ink);padding:clamp(64px,10vw,140px) clamp(24px,6vw,88px)}
+.learn-inner{max-width:1100px;margin:0 auto}
+.learn .lede{color:var(--taupe)}
+.course{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(24px,4vw,56px);margin-top:44px;padding:clamp(24px,4vw,44px);border:1px solid rgba(179,160,140,.4);border-radius:18px;align-items:center}
+.course h3{font-family:var(--display);font-weight:500;font-size:clamp(1.7rem,3vw,2.2rem);line-height:1.1;margin:0 0 14px}
+.course p{color:#e4d8c9}
+.course .more{color:var(--taupe);font-size:.95rem;margin:0}
+.course-buy .tp{display:block;font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,5vw,3.4rem);letter-spacing:-.03em;line-height:1.1}
+.course-buy .when{margin:6px 0 20px;color:var(--taupe)}
+.btn.light{background:var(--cream);color:var(--wine-deep);border-color:var(--cream)}
+.btn.light:focus-visible{outline:3px solid var(--taupe);outline-offset:3px}
+.soon{margin-top:40px;padding:clamp(28px,5vw,56px);border:1.5px dashed var(--line);border-radius:18px}
+.soon h3{font-family:var(--display);font-weight:500;font-size:1.6rem;margin:0 0 10px}
+.soon p{margin:0 0 20px;color:var(--muted);max-width:52ch}
+@media (max-width:820px){.course{grid-template-columns:1fr}}
+.products{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,2.5vw,32px);margin-top:44px}
+.product{display:flex;flex-direction:column}
+.product img{display:block;width:100%;height:auto;border-radius:12px;margin-bottom:16px}
+.kicker2{margin:0 0 6px;font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.product h3{font-family:var(--display);font-weight:500;font-size:1.3rem;line-height:1.15;margin:0 0 10px}
+.product p:not(.kicker2){margin:0 0 18px;color:var(--muted);font-size:.97rem;flex:1}
+.product .btn{align-self:flex-start}
+@media (max-width:1000px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.products{grid-template-columns:1fr;max-width:360px}}
+.svc-info .cta-form{margin-top:12px}
+.pprice{font-family:var(--display);font-weight:800;font-size:1.5rem;letter-spacing:-.02em;margin:0 0 14px}
+.lead{max-width:80ch;margin:0 0 28px;font-size:1.1rem}
+.tablewrap{overflow-x:auto}
+.ptable{width:100%;border-collapse:collapse;min-width:520px}
+.ptable th{text-align:left;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:0 12px 10px 0;font-weight:600}
+.ptable td{padding:13px 12px 13px 0;border-bottom:1px solid var(--line)}
+.ptable td.pr{font-family:var(--display);font-weight:800;font-size:1.15rem}
+.ptable tr.tier-row td{border-bottom:0;padding-top:24px;font-weight:600;color:var(--muted)}
+.extras{list-style:none;margin:0;padding:0}
+.extras li{display:flex;justify-content:space-between;gap:20px;padding:12px 0;border-bottom:1px solid var(--line)}
+.extras li:first-child{border-top:1px solid var(--line)}
+.extras strong{white-space:nowrap}
+.strike{text-decoration:line-through;color:var(--muted)}
+.more{margin-top:14px}
+.more summary{cursor:pointer;font-weight:600;font-size:.95rem}
+.more .two{display:grid;gap:16px;margin-top:12px}
+.more h4{margin:0 0 6px;font-size:.95rem}
+.more ul{margin:0;padding-left:1.1rem;color:var(--muted);font-size:.93rem}
+.more li{margin-bottom:4px}
+.contactsec{background:var(--wine);color:var(--cream);padding:clamp(64px,10vw,140px) clamp(24px,6vw,88px) 40px;border-top:1px solid rgba(179,160,140,.25)}
+.contactsec .lede{color:var(--taupe)}
+.reach{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px}
+.mail{margin:14px 0 0;color:var(--taupe);font-size:.95rem;overflow-wrap:anywhere}
+.socials{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-top:40px}
+.social{display:flex;flex-direction:column;gap:2px;padding:18px 20px;border:1px solid rgba(179,160,140,.35);border-radius:12px;text-decoration:none;transition:background .2s}
+.social:hover{background:rgba(245,237,225,.08)}
+.social strong{font-family:var(--display);font-weight:500;font-size:1.2rem}
+.social span{color:var(--taupe);font-size:.92rem;overflow-wrap:anywhere}
+.foot{margin:64px 0 0;color:var(--taupe);font-size:.88rem}
+.msg{margin-top:64px;padding-top:40px;border-top:1px solid rgba(179,160,140,.3);max-width:720px;display:grid;gap:16px}
+.msg h3{font-family:var(--display);font-weight:500;font-size:1.7rem;margin:0}
+.msg .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.field label{font-size:.9rem;color:var(--taupe)}
+.field input,.field select,.field textarea{font:inherit;color:var(--cream);background:rgba(245,237,225,.06);border:1px solid rgba(179,160,140,.5);border-radius:10px;padding:12px 14px;width:100%}
+.field select option{color:#2a1016;background:#f5ede1}
+.field input:focus-visible,.field select:focus-visible,.field textarea:focus-visible{outline:3px solid var(--taupe);outline-offset:2px}
+.msg .btn{justify-self:start;cursor:pointer;font:inherit;font-weight:600}
+.fine{margin:0;font-size:.9rem;color:var(--taupe)}
+@media (max-width:560px){.msg .row{grid-template-columns:1fr}}
+.strip{align-items:flex-start}
+#work-design .project{padding-top:48px;margin-top:48px;border-top:1px solid rgba(179,160,140,.25)}
+#work-design .project:first-child{border-top:0;padding-top:0}
+.course.lab{grid-template-columns:minmax(0,7fr) minmax(0,4fr);margin-top:44px;margin-bottom:28px;align-items:start}
+.lab-img{width:100%;height:auto;border-radius:12px;display:block}
+.sess{list-style:none;margin:20px 0;padding:0}
+.sess li{display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:14px;align-items:start;padding:14px 0;border-top:1px solid rgba(179,160,140,.3)}
+.sess li:last-child{border-bottom:1px solid rgba(179,160,140,.3)}
+.sn{font-family:var(--display);font-weight:800;font-size:1.3rem;color:var(--taupe)}
+.sess strong{font-family:var(--display);font-weight:500;font-size:1.15rem}
+.sess p{margin:2px 0 0;font-size:.95rem;color:var(--taupe)}
+.sd{font-size:.85rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--taupe);white-space:nowrap}
+.lab-prices{display:flex;flex-wrap:wrap;gap:32px;margin:0 0 18px}
+.lab-prices>div{display:flex;flex-direction:column}
+.lp-label{font-size:.8rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--taupe)}
+.lp-price{font-family:var(--display);font-weight:800;font-size:2rem;letter-spacing:-.02em;line-height:1.15}
+.lp-note{font-size:.9rem;color:var(--taupe)}
+.lab-main .more{margin:0 0 20px;color:#e4d8c9}
+@media (max-width:820px){.course.lab{grid-template-columns:1fr}.lab-img{max-width:360px}.sess li{grid-template-columns:36px minmax(0,1fr)}.sd{grid-column:2}}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 72px)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:21;background:#240810}
+.topnav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(36,8,16,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid rgba(179,160,140,.25)}
+.topnav-in{display:flex;align-items:center;gap:16px;max-width:1280px;margin:0 auto;padding:12px clamp(16px,4vw,48px);position:relative}
+.brand{font-family:var(--display);font-weight:800;font-size:1.25rem;letter-spacing:-.02em;text-decoration:none;color:var(--cream)}
+.nav-links{list-style:none;margin:0 auto;padding:0;display:flex;gap:4px}
+.nav-links a{display:block;padding:10px 12px;text-decoration:none;color:var(--taupe);font-weight:500;font-size:.95rem;border-radius:999px;transition:color .2s,background .2s}
+.nav-links a:hover,.nav-links a.active{color:var(--cream);background:rgba(245,237,225,.1)}
+.nav-right{display:flex;gap:10px;align-items:center;margin-left:auto}
+.nav-chat{padding:10px 20px;background:var(--cream);color:var(--wine-deep);border-radius:999px;font-weight:600;text-decoration:none;font-size:.95rem}
+.nav-chat:hover{background:var(--taupe)}
+.nav-toggle{display:none;font:inherit;font-weight:600;color:var(--cream);background:transparent;border:1.5px solid rgba(179,160,140,.5);border-radius:999px;padding:9px 16px;cursor:pointer}
+.brand:focus-visible,.nav-links a:focus-visible,.nav-chat:focus-visible,.nav-toggle:focus-visible{outline:3px solid var(--taupe);outline-offset:3px}
+.hero{min-height:calc(100vh - 64px);min-height:calc(100svh - 64px)}
+@media (max-width:960px){.nav-toggle{display:inline-block}.nav-links{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;gap:0;margin:0;padding:8px clamp(16px,4vw,48px) 16px;background:#240810;border-bottom:1px solid rgba(179,160,140,.25)}.topnav.open .nav-links{display:flex}.nav-links a{padding:14px 12px;font-size:1.05rem;border-radius:10px}}
+.hero-copy .tag{font-family:var(--display);font-weight:500;font-size:clamp(1.1rem,2.4vw,1.45rem);color:var(--taupe);margin:-6px 0 22px}
+.hero-copy .intro.sub{color:var(--taupe);font-size:1rem}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.hero-cta .cta{margin:0}
+.cta.ghost{background:transparent;color:var(--cream);border:1.5px solid var(--taupe)}
+.cta.ghost:hover{background:rgba(245,237,225,.1)}
+.services{background:var(--paper);color:var(--ink);padding:clamp(56px,8vw,110px) clamp(24px,6vw,88px) clamp(24px,3vw,40px)}
+.svc-inner{max-width:1280px;margin:0 auto}
+.pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:40px;border:1px solid var(--line)}
+.pillar{padding:30px 26px;border-right:1px solid var(--line);display:flex;flex-direction:column}
+.pillar:last-child{border-right:0}
+.pn{font-family:var(--display);font-weight:800;color:var(--muted);margin:0 0 8px}
+.pillar h3{font-family:var(--display);font-weight:500;font-size:1.6rem;margin:0 0 10px}
+.pillar p{margin:0 0 16px;color:var(--muted)}
+.pillar p:nth-of-type(2){flex:1}
+.pillar .from{font-family:var(--display);font-weight:800;font-size:1.35rem;color:var(--ink);letter-spacing:-.02em}
+.svc-link{font-weight:600;color:var(--ink)}
+.alsoline{margin:22px 0 0;color:var(--muted)}
+.alsoline a{color:var(--ink)}
+.why{padding-top:clamp(40px,5vw,72px)}
+@media (max-width:820px){.pillars{grid-template-columns:1fr}.pillar{border-right:0;border-bottom:1px solid var(--line)}.pillar:last-child{border-bottom:0}}
+.case{margin:0}
+.case dt{margin-top:14px;font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--taupe)}
+.case dd{margin:4px 0 0;color:#e4d8c9}
+.fold{margin-top:24px}
+.fold>summary{cursor:pointer;font-weight:600;font-size:1.05rem;padding:14px 0;border-top:1px solid var(--line)}
+.faqsec{padding-top:clamp(28px,4vw,56px);border-top:1px solid var(--line)}
+.faqsec .faq{border-top:0;padding-top:24px;max-width:820px}
+.faqsec .faq summary{font-size:1.05rem}
+.legal{margin-top:56px;max-width:820px;border-top:1px solid rgba(179,160,140,.3)}
+.legal details{border-bottom:1px solid rgba(179,160,140,.3);padding:14px 0}
+.legal summary{cursor:pointer;font-weight:600}
+.legal h3{display:none}
+.legal ul{margin:14px 0 0;padding-left:1.1rem;color:#e4d8c9}
+.legal li{margin-bottom:10px}
+.legal p{color:var(--taupe);margin:12px 0 0}
+.foot a{color:var(--taupe)}
+</style>
+</head>
+<body id="top">
+<nav class="topnav" id="topnav" aria-label="Main">
+  <div class="topnav-in">
+    <a class="brand" href="#top">IykeVisuals</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#classes">Learn</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a class="nav-chat" href="https://wa.me/2348134886249" target="_blank" rel="noopener">Chat</a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    </div>
+  </div>
+</nav>
+<header class="hero">
+  <div class="hero-copy">
+    <p class="who">Innocent Ikechukwu Emmanuel</p>
+    <h1>IykeVisuals</h1>
+    <p class="tag">Creative visuals. Powerful brands. Digital experiences.</p>
+    <p class="intro">I help businesses stand out through strategic graphic design, AI-powered commercials and modern websites.</p>
+    <p class="intro sub">I also teach AI content creation and sell digital guides.</p>
+    <div class="hero-cta">
+      <a class="cta" href="#work">Explore my work</a>
+      <a class="cta ghost cta-form" data-pkg="General enquiry" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20a%20project.">Start a project</a>
+    </div>
+  </div>
+  <div class="hero-photo"><img width="900" height="757" fetchpriority="high" src="assets/img-1.webp" alt="Innocent Ikechukwu Emmanuel, founder of IykeVisuals, in a colour-block polo and white trousers"></div>
+</header>
+<section class="services" id="services"><div class="svc-inner"><h2>What I do</h2><p class="lede">Three services from one creative studio. Choose what you need and see the price.</p><div class="pillars"><article class="pillar"><p class="pn">01</p><h3>Brand design</h3><p>Logos, brand identities, flyers, event branding and social media designs that make your business look credible and consistent.</p><p class="from">From <span data-ngn="₦15,000" data-usd="$12">₦15,000</span></p><a class="svc-link" href="#pricing" data-tab="price-design">See design pricing &rarr;</a></article><article class="pillar"><p class="pn">02</p><h3>AI video ads</h3><p>AI-produced commercials for your product or brand, from 30 seconds to 5 minutes, delivered fast.</p><p class="from">From <span data-ngn="₦350,000" data-usd="$275">₦350,000</span></p><a class="svc-link" href="#pricing" data-tab="price-ai">See video pricing &rarr;</a></article><article class="pillar"><p class="pn">03</p><h3>Websites</h3><p>Landing pages and full business websites that work on every device and give visitors an easy way to reach or buy from you.</p><p class="from">From <span data-ngn="₦120,000" data-usd="$95">₦120,000</span></p><a class="svc-link" href="#pricing" data-tab="price-websites">See website pricing &rarr;</a></article></div><p class="alsoline">Also: <a href="#classes">classes</a> and <a href="#products">digital products</a> for creators, and <a href="#process">how my process works</a>.</p></div></section>
+<section class="why" id="why">
+  <div class="why-grid">
+    <div>
+      <h2>Why work with me</h2>
+      <p class="lede">I’m Innocent Ikechukwu Emmanuel, the designer, AI creator and web developer behind IykeVisuals. I work with small businesses, creators and startups, and I tell you what you get, what I need from you and how long it takes before you pay. I reply within one business day.</p>
+    </div>
+    <ul class="reasons">
+      <li><h3>Design, AI commercials and websites under one roof</h3><p>One person handles your brand graphics, your AI-made commercial and your website, so everything looks like it belongs together.</p></li>
+      <li><h3>Fast turnaround</h3><p>A 30-second AI ad is ready in 1 day once your script is approved, a landing page in as little as 3 days, and even a 5-minute video takes 3 days.</p></li>
+      <li><h3>Visuals made for your audience</h3><p>Every piece is designed around who you’re trying to reach, not just what looks good.</p></li>
+      <li><h3>Revisions until it feels right</h3><p>You’re involved at every stage, and I keep refining until the result matches what you pictured.</p></li>
+    </ul>
+  </div>
+</section>
+<section class="process" id="process">
+  <div class="process-grid">
+    <div>
+      <h2>My proven process</h2>
+      <p class="lede">Whatever you hire me for, you always know what happens next. Choose a service to see how it works.</p>
+      <div class="tabs" role="tablist" aria-label="Choose a service">
+        <button class="tab" role="tab" id="tab-ai" aria-selected="true" aria-controls="track-ai">AI commercials</button>
+        <button class="tab" role="tab" id="tab-brand" aria-selected="false" aria-controls="track-brand">Design and brand identity</button>
+        <button class="tab" role="tab" id="tab-web" aria-selected="false" aria-controls="track-web">Website development</button>
+      </div>
+    </div>
+    <ol class="steps" id="track-ai" role="tabpanel" aria-labelledby="tab-ai"><li><h3>Choose your length or package</h3><p>Pick a video length or a package, and message me.</p></li><li><h3>Send your brief and pay the deposit</h3><p>I confirm your start date once you’ve paid the 50% deposit.</p></li><li><h3>Approve the script</h3><p>I send the script, or review yours. For Tier 2 videos and longer, I also send key frames for approval before I animate.</p></li><li><h3>I build and edit your video</h3><p>You get the first draft within the delivery time for your length. The clock starts once I have your deposit, a complete brief and your approved script.</p></li><li><h3>Two rounds of revisions</h3><p>Send one consolidated list per round. Each round is turned around within 24 hours for Tier 1 videos and within 2 days for longer ones.</p></li><li><h3>Pay the balance and get your files</h3><p>You pay the remaining 50% and receive the final MP4 files by download link.</p></li></ol>
+    <ol class="steps" id="track-brand" role="tabpanel" aria-labelledby="tab-brand" hidden><li><h3>Choose an option</h3><p>Pick a design service or package and message me.</p></li><li><h3>Send your brief</h3><p>Tell me what the design is for, and send your text, logo and photos.</p></li><li><h3>Pay the deposit</h3><p>Pay 50% to start, or full payment for single designs. I confirm your start date.</p></li><li><h3>Receive your first draft</h3><p>You get it within the delivery time shown for your option.</p></li><li><h3>Request revisions</h3><p>You get two rounds. Each is one consolidated list of changes.</p></li><li><h3>Pay the balance and get your files</h3><p>You pay the remaining 50% and receive your final files.</p></li></ol>
+    <ol class="steps" id="track-web" role="tabpanel" aria-labelledby="tab-web" hidden><li><h3>Choose your website</h3><p>Pick a landing page, a business website or a website and brand bundle, and message me.</p></li><li><h3>Send your brief and pay the deposit</h3><p>Send your copy, brand colours, logo files and call-to-action links or phone numbers, plus your domain registrar login. You pay the 50% deposit and I confirm your start date.</p></li><li><h3>I build your website with AI</h3><p>Your site is fully AI-generated and responsive on mobile and desktop. A landing page takes 3 to 5 days, a business site 7 days, and an e-commerce site 10 to 14 days.</p></li><li><h3>Review your first draft</h3><p>You look through the design and tell me what to change.</p></li><li><h3>Two rounds of revisions</h3><p>Two rounds of structural design revisions are included. Extra rounds are quoted at the website price list rate.</p></li><li><h3>Pay the balance and go live</h3><p>You pay the remaining 50% before your domain launch or the transfer of website ownership. After that, I launch your site, and you can add a monthly maintenance plan to keep it fast, secure and updated.</p></li></ol>
+  </div>
+</section>
+<section class="work" id="work">
+  <div class="work-head">
+    <h2>Selected work</h2>
+    <p class="lede">Selected projects, from AI commercials to event branding.</p>
+    <div class="tabs" role="tablist" aria-label="Choose a portfolio">
+      <button class="tab" role="tab" id="wtab-ai" aria-selected="true" aria-controls="work-ai">AI commercials</button>
+      <button class="tab" role="tab" id="wtab-design" aria-selected="false" aria-controls="work-design">Design and brand identity</button>
+    </div>
+  </div>
+  <div class="wpanel" id="work-ai" role="tabpanel" aria-labelledby="wtab-ai"><div class="reel">
+<figure class="reel-item"><video controls playsinline preload="metadata" poster="assets/img-2.webp" src="assets/video-1.mp4" aria-label="Bournvita commercial"></video><figcaption><strong>Bournvita</strong><span>Concept project · AI commercial · 0:44</span></figcaption><div class="idea"><h4>The idea: “The Wake-Up Wisp”</h4><p>Every parent knows the struggle of a sleepy school morning, so I started with a boy asleep at the breakfast table in full uniform. The warm chocolate aroma becomes a friendly wisp of steam that travels through the kitchen, wakes the cat and the rooster, and finds its way back to him.</p><p>One sip turns a slow morning into a bright one, in a Pixar-style world that kids and families connect with. The ad stays mood-led with no health claims, and the real tin and logo are added from official brand assets at the end.</p></div></figure>
+<figure class="reel-item"><video controls playsinline preload="metadata" poster="assets/img-3.webp" src="assets/video-2.mp4" aria-label="Tranqbay commercial"></video><figcaption><strong>Tranqbay</strong><span>Concept project · Pitch reel · 1:13</span></figcaption><div class="idea"><h4>The idea: “Where You Are”</h4><p>Support doesn’t only happen at a desk. The film follows people at the moments they put off looking after themselves: at a work laptop, on the bus, before a difficult call, and at 2 AM. It starts cool, loud and tense, then turns warm, soft and quiet, so the viewer feels the exhale without being told.</p><p>It builds on Tranqbay’s own app-launch story and ends on “Wherever you are, we’ll be there.” This is an independent concept pitch, not an official Tranqbay production.</p></div></figure>
+<figure class="reel-item"><video controls playsinline preload="metadata" poster="assets/img-4.webp" src="assets/video-3.mp4" aria-label="Peak Milk commercial"></video><figcaption><strong>Peak Milk</strong><span>Concept project · AI commercial · 0:36</span></figcaption><div class="idea"><h4>The idea: “One Milk, a Thousand Mornings”</h4><p>A food-first rhythm film built on one rule: the camera never moves, only the dish changes. The same pour becomes tea, pap, cereal, custard and pancakes, each cut landing on the beat of an Afro-fusion track, with bold on-screen words so it works with the sound off.</p><p>Then it opens up to the faces around the table and one top-down breakfast spread. It turns “milk is versatile” into something people can see and hear, and its modular blocks cut down easily to 15-second and 6-second versions.</p></div></figure>
+  </div></div>
+  <div class="wpanel" id="work-design" role="tabpanel" aria-labelledby="wtab-design" hidden>
+    <article class="project">
+      <div class="project-text">
+        <p class="kicker">Client project · Event branding · The JKing Global</p>
+        <h3>Ministers Young &amp; Powerful Global Conference, 4th Edition</h3>
+        <dl class="case">
+          <dt>Challenge</dt><dd>Create a recognisable identity for an online conference on Google Meet with the theme “The Skill of Learning: Taking Root Downwards”.</dd>
+          <dt>Creative direction</dt><dd>A golden root system spreading behind every speaker, on black fabric with gold and purple that match the host’s brand, built around the words Discovery, Discipline, Distinction.</dd>
+          <dt>Deliverables</dt><dd>Host announcement, “Guess the Guest” teasers, individual speaker reveals, a main lineup flyer with the registration link and sponsor strip, and a call-for-sponsorship flyer.</dd>
+          <dt>Result</dt><dd>One consistent look across the whole campaign, so the event was recognisable at a glance as the reveals rolled out.</dd>
+        </dl>
+      </div>
+      <div class="strip-wrap"><div class="strip" tabindex="0" aria-label="Event flyers, scroll sideways">
+<img width="640" height="905" src="assets/img-5.webp" alt="Main speaker lineup flyer for the Ministers Young and Powerful Global Conference" loading="lazy">
+<img width="640" height="818" src="assets/img-6.webp" alt="Host announcement flyer featuring the founder of The JKing Global" loading="lazy">
+<img width="640" height="818" src="assets/img-7.webp" alt="Guess the Guest teaser flyer with a silhouette and golden roots" loading="lazy">
+<img width="640" height="818" src="assets/img-8.webp" alt="Speaker reveal flyer, Chinedu Timothy" loading="lazy">
+<img width="640" height="818" src="assets/img-9.webp" alt="Speaker reveal flyer, Amb. Obed Odoh Tochukwu" loading="lazy">
+<img width="640" height="818" src="assets/img-10.webp" alt="Speaker reveal flyer, Amb. Ikenna Ezenwa" loading="lazy">
+<img width="640" height="818" src="assets/img-11.webp" alt="Speaker reveal flyer, Comr. Emmanuel Obi Ikechukwu" loading="lazy">
+</div><p class="hint">Swipe or scroll sideways to see more flyers</p></div>
+    </article>
+    <article class="project">
+      <div class="project-text">
+        <p class="kicker">Client project · Monthly series · Flaming Glory Assembly</p>
+        <h3>A month of weekly service flyers</h3>
+        <p>A full month of Sunday flyers for Flaming Glory Assembly in Port Harcourt. Every week has its own theme: Supernatural Release, Unusual Miracles, All-round Testimonies and Divine Visitation. The pastors’ portrait, the drum and pattern backdrop and the date strip stay constant, so the whole series is recognisable at a glance.</p>
+      </div>
+      <div class="strip-wrap"><div class="strip" tabindex="0" aria-label="A month of weekly service flyers, scroll sideways">
+<img width="640" height="640" src="assets/img-12.webp" alt="Flaming Glory Assembly flyer, Praise for Supernatural Release, 4 October" loading="lazy">
+<img width="640" height="640" src="assets/img-13.webp" alt="Flaming Glory Assembly flyer, Praise for Unusual Miracles, 11 October" loading="lazy">
+<img width="640" height="640" src="assets/img-14.webp" alt="Flaming Glory Assembly flyer, Praise for All-round Testimonies, 18 October" loading="lazy">
+<img width="640" height="640" src="assets/img-15.webp" alt="Flaming Glory Assembly flyer, Praise for Divine Visitation, 25 October" loading="lazy">
+</div><p class="hint">Swipe or scroll sideways to see more</p></div>
+    </article>
+    <article class="project">
+      <div class="project-text">
+        <p class="kicker">Client projects · Business flyers</p>
+        <h3>Flyers for small businesses</h3>
+        <p>One-off promotional flyers for local businesses: Beauteque by Phoqs (hair and wigs), Iyke Footwears (shoes and repairs) and Christie’s Buffet &amp; Beyond (buffet and event equipment). Each puts the services, contact details and product photos into a layout that fits the brand’s own colours.</p>
+      </div>
+      <div class="strip-wrap"><div class="strip" tabindex="0" aria-label="Flyers for small businesses, scroll sideways">
+<img width="640" height="731" src="assets/img-16.webp" alt="Beauteque by Phoqs flyer for wigs, installations, hair treatment and braiding" loading="lazy">
+<img width="640" height="650" src="assets/img-17.webp" alt="Iyke Footwears flyer for shoes, slides, women slippers and repairs" loading="lazy">
+<img width="640" height="675" src="assets/img-18.webp" alt="Christie’s Buffet and Beyond flyer for buffet stands, chafing dishes and event essentials" loading="lazy">
+</div><p class="hint">Swipe or scroll sideways to see more</p></div>
+    </article>
+    <article class="project">
+      <div class="project-text">
+        <p class="kicker">Client projects · Birthday flyers</p>
+        <h3>Birthday celebration flyers</h3>
+        <p>Tribute flyers for a pastor and a church member, each built around a strong portrait, a warm message and its own colour mood: deep blue and brown for the pastor’s “Father, Teacher, Mentor, Pacesetter” tribute, and green and gold for a lady’s birthday wishes.</p>
+      </div>
+      <div class="strip-wrap"><div class="strip" tabindex="0" aria-label="Birthday celebration flyers, scroll sideways">
+<img width="640" height="905" src="assets/img-19.webp" alt="Birthday tribute flyer for a pastor" loading="lazy">
+<img width="640" height="822" src="assets/img-20.webp" alt="Birthday flyer with green and gold styling" loading="lazy">
+</div><p class="hint">Swipe or scroll sideways to see more</p></div>
+    </article>
+  </div>
+</section>
+<script>
+(function(){var vs=document.querySelectorAll('.reel-item video');vs.forEach(function(v){v.addEventListener('play',function(){vs.forEach(function(o){if(o!==v)o.pause();});});});})();
+</script>
+<section class="pricing" id="pricing">
+  <div class="pricing-head">
+    <div>
+      <h2>Packages and pricing</h2>
+      <p class="lede">Clear prices and clear deliverables, so there are no surprises.</p>
+    </div>
+    <div class="cur" role="group" aria-label="Currency">
+      <button type="button" data-cur="ngn" aria-pressed="true">₦ Naira</button>
+      <button type="button" data-cur="usd" aria-pressed="false">$ Dollars</button>
+    </div>
+  </div>
+  <div class="ptabs" role="tablist" aria-label="Choose a service">
+    <button type="button" class="ptab" role="tab" id="ptab-ai" aria-selected="true" aria-controls="price-ai">AI commercials</button>
+    <button type="button" class="ptab" role="tab" id="ptab-design" aria-selected="false" aria-controls="price-design">Design and brand identity</button>
+    <button type="button" class="ptab" role="tab" id="ptab-websites" aria-selected="false" aria-controls="price-websites">Websites</button>
+    <button type="button" class="ptab" role="tab" id="ptab-bundles" aria-selected="false" aria-controls="price-bundles">Design + AI bundles</button>
+  </div>
+  <div class="svc-wrap" id="price-ai" role="tabpanel" aria-labelledby="ptab-ai">
+<p class="lead">Fully AI-generated video ads for brands. No crew, no studio, no shoot. A 30-second video is ready in 1 day, and even a 5-minute video is ready in 3 days. Delivery time starts once your script is approved.</p>
+<div class="svc"><div class="svc-info"><h3>Price by length</h3><p>Choose your length. “Script provided” means you give me the finished script: the words, the scenes and the call-to-action. “Script not provided” means I write the concept and script, and you approve it before I generate anything.</p><p class="small">Every price includes 2 revision rounds, on-screen captions, your logo and call-to-action, and a vertical 9:16 cut. Videos from Tier 2 up also get a key-frame look test: I send still frames for your approval before I animate. Order 2 or more videos at once and get ₦50,000 off the total. Same-day delivery on Tier 1 videos adds 30%.</p><a class="btn solid cta-form" data-pkg="AI video ad (by length)" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20AI%20video%20ad%20%28by%20length%29.">Get started</a></div><div><div class="tablewrap"><table class="ptable"><thead><tr><th>Video length</th><th>Delivery</th><th>Script provided</th><th>Script not provided</th></tr></thead><tbody><tr class="tier-row"><td colspan="4">Tier 1: 30 seconds to 1 minute</td></tr><tr><td>30 seconds</td><td>1 day</td><td class="pr"><span data-ngn="₦350,000" data-usd="$275">₦350,000</span></td><td class="pr"><span data-ngn="₦450,000" data-usd="$350">₦450,000</span></td></tr><tr><td>Up to 1 minute</td><td>1 day</td><td class="pr"><span data-ngn="₦750,000" data-usd="$590">₦750,000</span></td><td class="pr"><span data-ngn="₦850,000" data-usd="$680">₦850,000</span></td></tr><tr class="tier-row"><td colspan="4">Tier 2: 1 minute to 3 minutes</td></tr><tr><td>Up to 2 minutes</td><td>2 days</td><td class="pr"><span data-ngn="₦1,250,000" data-usd="$980">₦1,250,000</span></td><td class="pr"><span data-ngn="₦1,400,000" data-usd="$1,100">₦1,400,000</span></td></tr><tr><td>Up to 3 minutes</td><td>2 days</td><td class="pr"><span data-ngn="₦1,700,000" data-usd="$1,340">₦1,700,000</span></td><td class="pr"><span data-ngn="₦1,900,000" data-usd="$1,500">₦1,900,000</span></td></tr><tr class="tier-row"><td colspan="4">Tier 3: 3 minutes to 5 minutes</td></tr><tr><td>Up to 4 minutes</td><td>3 days</td><td class="pr"><span data-ngn="₦2,250,000" data-usd="$1,750">₦2,250,000</span></td><td class="pr"><span data-ngn="₦2,500,000" data-usd="$1,950">₦2,500,000</span></td></tr><tr><td>Up to 5 minutes</td><td>3 days</td><td class="pr"><span data-ngn="₦2,700,000" data-usd="$2,100">₦2,700,000</span></td><td class="pr"><span data-ngn="₦3,000,000" data-usd="$2,350">₦3,000,000</span></td></tr></tbody></table></div></div></div>
+<div class="svc"><div class="svc-info"><h3>Packages</h3><p>Need more than one video? Packages are cheaper than buying videos one by one.</p><p class="small">Want longer videos inside a pack? Each video is priced from the length table, then 15% off for 3 videos or 20% off for 5. Packs include 2 revision rounds per video. How the pack prices work, in naira: the Content Pack is 3 videos at ₦450,000 (the price of a 30-second video with the script written by me) less 15%, and the Brand Pack is 5 videos at ₦450,000 less 20%, both rounded. The Starter Ad price is the script-provided price. Dollar prices are set separately.</p><a class="btn solid cta-form" data-pkg="AI video packages" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20AI%20video%20packages.">Get started</a></div><div class="tiers"><div class="tier"><h4>Starter Ad</h4><span class="tp"><span data-ngn="₦350,000" data-usd="$275">₦350,000</span></span><p>1 video, 30 seconds to 1 minute. Concept and script by me (or yours), AI visuals and a finished edit, captions and colour grading, your logo and call-to-action, and a ready-to-post caption. Price follows the length table. This is the from price.</p><p class="when">1 video</p></div><div class="tier"><h4>Content Pack</h4><span class="tp"><span data-ngn="₦1,150,000" data-usd="$920">₦1,150,000</span></span><p>3 videos of 30 seconds each, 15% off. Trend-based concepts and quick cuts, one consistent look across all 3, captions and colour grading, your logo and call-to-action, and a caption for each video.</p><p class="when">First video in 1 day, all 3 by day 3</p></div><div class="tier"><h4>Brand Pack</h4><span class="tp"><span data-ngn="₦1,800,000" data-usd="$1,440">₦1,800,000</span></span><p>5 videos of 30 seconds each, 20% off. Script and concept built around your brand, a key-frame look test before animation, high-quality AI visuals, edit and colour grading, captions, logo, call-to-action and a caption for each video.</p><p class="when">First video in 1 day, all 5 by day 5</p></div></div></div>
+
+<div class="svc"><div class="svc-info"><h3>Extras</h3><p>Add any of these to a video.</p></div><ul class="extras"><li><span>Second-language voiceover (for example French, Spanish or Yoruba)</span><strong><span data-ngn="₦30,000" data-usd="$25">₦30,000</span></strong></li><li><span>Custom AI character or talent, with a consistent face and outfit</span><strong><span data-ngn="₦150,000" data-usd="$120">₦150,000</span></strong></li><li><span>Logo animation (intro or outro)</span><strong><span data-ngn="₦40,000" data-usd="$32">₦40,000</span></strong></li><li><span>15-second cutdown of a finished video</span><strong><span data-ngn="₦60,000" data-usd="$50">₦60,000</span></strong></li><li><span>6-second bumper for retargeting and pre-roll</span><strong><span data-ngn="₦40,000" data-usd="$32">₦40,000</span></strong></li><li><span>Extra format: 16:9 (horizontal) or 1:1 (square)</span><strong><span data-ngn="₦20,000" data-usd="$16">₦20,000</span></strong></li><li><span>Extra revision round</span><strong><span data-ngn="₦40,000" data-usd="$32">₦40,000</span></strong></li><li><span>Same-day delivery on Tier 1 videos (subject to availability)</span><strong>Add 30%</strong></li></ul></div>
+<details class="fold"><summary>What’s included, what I need and the terms</summary><div class="details">
+<div><h4>What every video includes</h4><ul><li><strong>Concept and script</strong>, written by me or yours if you provide it. You approve it before I generate anything.</li><li><strong>AI visuals:</strong> every shot generated with AI, then edited with pacing, transitions and colour grading</li><li><strong>Voiceover or text-only:</strong> AI voice or on-screen text, your choice</li><li><strong>Captions</strong> burned in so the video works with sound off</li><li><strong>Your branding:</strong> logo, colours and call-to-action in the video</li><li><strong>Ready-to-post caption</strong></li><li><strong>Vertical 9:16 cut</strong> for Reels, TikTok, WhatsApp Status and Facebook Reels, delivered as MP4 by download link</li></ul></div>
+<div><h4>What I need from you</h4><ul><li>Business name, what you sell and who your ideal customer is</li><li>The one thing you want the video to make people do (buy, DM, book, visit, sign up)</li><li>Your logo and brand colours, and clear product photos if you want it shown accurately</li><li>Two or three ads you like, for reference</li><li>Any words, names or claims that must appear (prices, offers, phone number)</li><li>If you’re providing the script: the full script with scenes and call-to-action</li></ul></div>
+<div><h4>Not included</h4><ul><li>Real actors, filmed footage or voice recordings of real people (can be quoted separately)</li><li>Ad spend, or posting and running the ad for you</li><li>The likeness of real public figures</li><li>Logo design (quoted separately)</li></ul></div>
+</div>
+<p class="note"><strong>The honest part about AI video:</strong> it is powerful but not perfect. Faces, hands and small text can sometimes look off, and exact logos or product labels in motion are the hardest things to get right. I review every shot and regenerate until it is polished. If something you want is not reliable with AI, I’ll tell you before we start and suggest a workaround, such as placing the exact label as a clean overlay.</p>
+<p class="note"><strong>Revisions:</strong> a round means one consolidated list of changes sent together. Each round is turned around within 24 hours for Tier 1 videos and within 2 days for longer ones. A new concept after script approval, or a rebuild of most of the video, counts as a new project.</p>
+<p class="note"><strong>Clock and ownership:</strong> the delivery clock starts when I have your deposit, a complete brief and your approved script. After full payment, the videos are yours to use commercially for your own brand, including paid ads.</p>
+<p class="note"><strong>AI labelling:</strong> some platforms have rules about labelling AI-generated content in ads. I’ll flag where this may apply, but what you post and how you label it is your responsibility.</p>
+</details>
+</div>
+<div class="svc-wrap" id="price-websites" role="tabpanel" aria-labelledby="ptab-websites" hidden>
+<p class="lead">Modern, responsive websites that give your business a professional online presence. Every website is fully AI-generated, which keeps turnaround short and prices below traditional agency rates. Pick a project below, or ask for a quote on something custom.</p>
+<div class="svc"><div class="svc-info"><h3>Landing Pages and Single-Page Websites</h3><p>High-converting, fast-turnaround pages for product launches, event registrations, apps and service promotions.</p><details class="more"><summary>Details</summary><div class="two"><div><h4>What I need from you</h4><ul><li>Written copy or text</li><li>Brand colours and logo files</li><li>Your domain registrar login</li><li>Destination call-to-action links or phone numbers</li></ul></div><div><h4>Not included</h4><ul><li>Paid copywriting</li><li>Domain purchase costs</li><li>Hosting subscription fees</li><li>Ongoing site management</li></ul></div></div></details><a class="btn solid cta-form" data-pkg="Website: Landing Page" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Website%3A%20Landing%20Page.">Get started</a></div><div class="tiers"><div class="tier"><h4>Essential Landing Page</h4><span class="tp"><span data-ngn="₦120,000" data-usd="$95">₦120,000</span></span><p>A custom modern 1-page website that works on mobile and desktop, with clear call-to-action buttons, a contact form and lead capture, and basic SEO tags and meta setup.</p><p class="when">Ready in 3 days</p></div><div class="tier"><h4>Premium Conversion Page</h4><span class="tp"><span data-ngn="₦250,000" data-usd="$200">₦250,000</span></span><p>Everything in Essential, plus custom AI-generated visual graphics, an integrated booking engine or form, custom domain setup and DNS routing, custom UI animations and automated email alerts.</p><p class="when">Ready in 5 days</p></div></div></div>
+
+<div class="svc"><div class="svc-info"><h3>Full Business Websites</h3><p>Multi-page websites for small businesses, agencies, startups, online sellers and professionals.</p><details class="more"><summary>Details</summary><div class="two"><div><h4>What I need from you</h4><ul><li>Complete page copy</li><li>High-resolution product photos</li><li>Merchant payment API keys (for e-commerce)</li><li>Your brand identity assets</li></ul></div><div><h4>Not included</h4><ul><li>Custom backend database development</li><li>Third-party plugin license fees</li><li>Ongoing inventory management</li></ul></div></div></details><a class="btn solid cta-form" data-pkg="Website: Business Site" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Website%3A%20Business%20Site.">Get started</a></div><div class="tiers"><div class="tier"><h4>Standard Business Site</h4><span class="tp"><span data-ngn="₦350,000" data-usd="$275">₦350,000</span></span><p>Up to 4 pages: Home, About Us, Services or Products, and Contact. Fully responsive on mobile and tablet, with contact form integration and social media linking.</p><p class="when">Ready in 7 days</p></div><div class="tier"><h4>E-Commerce / Complete Site</h4><span class="tp"><span data-ngn="₦650,000" data-usd="$500">₦650,000</span></span><p>Up to 8 pages: Home, Shop, About, FAQ, Blog, Cart, Terms and Contact. Product catalog setup for up to 15 products, Paystack or Flutterwave payment integration, and automated checkout with order confirmation.</p><p class="when">Ready in 10 to 14 days</p></div></div></div>
+
+<div class="svc"><div class="svc-info"><h3>Website + Brand and Visual Content Bundles</h3><p>Pair a fully AI-generated website with brand design and an AI video, for a complete launch setup.</p><a class="btn solid cta-form" data-pkg="Website bundle" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Website%20bundle.">Get started</a></div><div class="tiers"><div class="tier"><h4>Launchpack Alpha</h4><span class="tp"><span data-ngn="₦600,000" data-usd="$480">₦600,000</span></span><p>1 high-converting landing page, a Starter Brand Kit (logo, colours and 6 social designs), and 1 AI-generated 30-second website hero video.</p><p class="when">Ready in 7 days</p></div><div class="tier"><h4>Launchpack Complete</h4><span class="tp"><span data-ngn="₦1,200,000" data-usd="$950">₦1,200,000</span></span><p>Up to a 5-page complete business website, a full Brand Pack with 10 social media posts, and 1 AI commercial promo video for ads and your landing page.</p><p class="when">Ready in 14 days</p></div></div></div>
+
+<div class="svc"><div class="svc-info"><h3>Website Maintenance and Hosting</h3><p>Monthly care that keeps your website fast, secure, backed up and updated, without you handling the technical side.</p><a class="btn solid cta-form" data-pkg="Website maintenance" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Website%20maintenance.">Get started</a></div><div class="tiers"><div class="tier"><h4>Basic Maintenance Care</h4><span class="tp"><span data-ngn="₦40,000" data-usd="$35">₦40,000</span> <span class="per">per month</span></span><p>Up to 3 text or image updates a month, monthly site backups, uptime monitoring, domain and SSL security checks, and chat support.</p><p class="when">Month-to-month</p></div><div class="tier"><h4>Growth Care and Content</h4><span class="tp"><span data-ngn="₦95,000" data-usd="$75">₦95,000</span> <span class="per">per month</span></span><p>Up to 8 content updates, SEO optimization tweaks, security patches, 1 new blog or landing page layout monthly, and a 30-minute monthly strategy check-in.</p><p class="when">Month-to-month</p></div></div></div>
+
+<div class="svc"><div class="svc-info"><h3>Add-ons</h3><p>Add any of these to a website project.</p></div><ul class="extras"><li><span>Additional custom web page</span><strong><span data-ngn="₦25,000" data-usd="$20">₦25,000</span></strong></li><li><span>Domain and custom hosting setup assistance</span><strong><span data-ngn="₦15,000" data-usd="$12">₦15,000</span></strong></li><li><span>Live chat or WhatsApp Business widget</span><strong><span data-ngn="₦20,000" data-usd="$16">₦20,000</span></strong></li><li><span>Extra revision round</span><strong><span data-ngn="₦30,000" data-usd="$25">₦30,000</span></strong></li><li><span>Rush delivery: website built in under 48 hours (subject to availability)</span><strong>Add 30%</strong></li></ul></div>
+<p class="note"><strong>Payment and revisions:</strong> 50% deposit to begin work, and 50% balance due before your domain launch or the transfer of website ownership. Two rounds of structural design revisions are included per project, and extra rounds are quoted at the price above.</p>
+</div>
+<div class="svc-wrap" id="price-bundles" role="tabpanel" aria-labelledby="ptab-bundles" hidden>
+<p class="lead">Want your ad and your designs to look like one brand? These bundles pair AI commercials with matching design work, and cost less than buying each part separately.</p>
+<div class="svc"><div class="svc-info"><p class="pk">Bundle 1</p><h3>Launch Bundle</h3><p>A 30-second AI ad plus three matching designs, so your launch or promo looks the same everywhere.</p><p class="small">Best for product launches, promos and first-time ad buyers.</p><a class="btn solid cta-form" data-pkg="Launch Bundle" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Launch%20Bundle.">Get started</a></div><div class="tier-full"><span class="tp"><span data-ngn="₦470,000" data-usd="$365">₦470,000</span></span><p class="when"><span class="strike"><span data-ngn="₦495,000" data-usd="$386">₦495,000</span></span> if bought separately · Save <span data-ngn="₦25,000" data-usd="$21">₦25,000</span></p><p class="when">Separate prices: <span data-ngn="₦450,000" data-usd="$350">₦450,000</span> AI ad + <span data-ngn="₦25,000" data-usd="$20">₦25,000</span> Premium flyer + <span data-ngn="₦10,000" data-usd="$8">₦10,000</span> story version + <span data-ngn="₦10,000" data-usd="$8">₦10,000</span> feed post.</p><h4>What’s included</h4><ul><li>One 30-second AI ad, script written by me, with captions, your logo, call-to-action and a vertical 9:16 cut</li><li>One Premium flyer (2 concepts to choose from)</li><li>The matching story version of that flyer</li><li>One social feed post design</li><li>All three designs and the ad share one look</li></ul><p class="when">Ad in 1 day after script approval · Designs first draft in 3 days</p></div></div>
+
+<div class="svc"><div class="svc-info"><p class="pk">Bundle 2</p><h3>Brand and Ad Bundle</h3><p>A new brand identity, then a 30-second AI ad built on it.</p><p class="small">Best for new or rebranding businesses that want to launch with an identity and an ad.</p><a class="btn solid cta-form" data-pkg="Brand and Ad Bundle" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Brand%20and%20Ad%20Bundle.">Get started</a></div><div class="tier-full"><span class="tp"><span data-ngn="₦520,000" data-usd="$405">₦520,000</span></span><p class="when"><span class="strike"><span data-ngn="₦570,000" data-usd="$445">₦570,000</span></span> if bought separately · Save <span data-ngn="₦50,000" data-usd="$40">₦50,000</span></p><p class="when">Separate prices: <span data-ngn="₦120,000" data-usd="$95">₦120,000</span> Brand Identity Essential + <span data-ngn="₦450,000" data-usd="$350">₦450,000</span> AI ad.</p><h4>What’s included</h4><ul><li>Brand Identity Essential: logo (2 concepts, 1 refined) with an alternate version, colour palette and fonts, a mini brand guide, and a social profile image and cover</li><li>One 30-second AI ad using your new logo, colours and style, script written by me</li></ul><p class="when">Identity concepts in 5 days, finals in 10 · Ad in 1 day once the identity is final and the script is approved</p></div></div>
+
+<div class="svc"><div class="svc-info"><p class="pk">Bundle 3</p><h3>Event Promo Bundle</h3><p>Full event branding plus a 30-second AI promo video for the event.</p><p class="small">Best for conferences, concerts, church programmes, school events and launches.</p><a class="btn solid cta-form" data-pkg="Event Promo Bundle" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Event%20Promo%20Bundle.">Get started</a></div><div class="tier-full"><span class="tp"><span data-ngn="₦590,000" data-usd="$460">₦590,000</span></span><p class="when"><span class="strike"><span data-ngn="₦650,000" data-usd="$510">₦650,000</span></span> if bought separately · Save <span data-ngn="₦60,000" data-usd="$50">₦60,000</span></p><p class="when">Separate prices: <span data-ngn="₦200,000" data-usd="$160">₦200,000</span> Event Full Branding + <span data-ngn="₦450,000" data-usd="$350">₦450,000</span> AI ad.</p><h4>What’s included</h4><ul><li>Event Full Branding: theme identity, main flyer, 6 social posts, 3 story designs, a print-ready banner, an invitation or ticket, and up to 3 speaker flyers</li><li>One 30-second AI promo video in the same look, script written by me</li></ul><p class="when">Branding first draft in 7 days · Promo in 1 day after script approval</p></div></div>
+
+<div class="svc"><div class="svc-info"><p class="pk">Bundle 4</p><h3>Content Engine</h3><p>Three AI ads plus a month of steady designs and captions, all in one brand style.</p><p class="small">Best for brands that post consistently and want video and design handled in one place.</p><a class="btn solid cta-form" data-pkg="Content Engine" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Content%20Engine.">Get started</a></div><div class="tier-full"><span class="tp"><span data-ngn="₦1,230,000" data-usd="$980">₦1,230,000</span></span><p class="when"><span class="strike"><span data-ngn="₦1,345,000" data-usd="$1,070">₦1,345,000</span></span> if bought separately · Save <span data-ngn="₦115,000" data-usd="$90">₦115,000</span></p><p class="when">Separate prices: <span data-ngn="₦1,150,000" data-usd="$920">₦1,150,000</span> Content Pack + <span data-ngn="₦195,000" data-usd="$150">₦195,000</span> Standard Retainer for one month.</p><h4>What’s included</h4><ul><li>Content Pack: 3 AI videos of 30 seconds each, with trend-based concepts and one consistent look</li><li>One month of the Standard Retainer: 12 designs, 8 captions, a 30-minute monthly check-in and priority in my queue</li><li>Keep the retainer going month to month after that</li></ul><p class="when">First video in 1 day, all 3 by day 3 · First designs in 7 days, then weekly batches of 3</p></div></div>
+
+<p class="note">Every part of a bundle keeps its own 2 revision rounds. Bundles are paid 50% to start and 50% before final files are released. Need a different mix, such as a longer video with a brand identity? Tell me and I’ll quote it.</p>
+</div>
+<div class="svc-wrap" id="price-design" role="tabpanel" aria-labelledby="ptab-design" hidden><div class="svc"><div class="svc-info"><h3>Single Flyer</h3><p>One flyer for a promo, product, announcement or event, ready to post or print.</p><p class="small">Add a matching story version for <span data-ngn="+₦10,000" data-usd="+$8">+₦10,000</span>.</p><details class="more"><summary>Details</summary><div class="two"><div><h4>What I need from you</h4><ul><li>The text, offer, prices and contact details exactly as you want them</li><li>Your logo and brand colours, if you have them</li><li>Photos you want used, in good quality</li><li>One or two flyers you like, for reference</li></ul></div><div><h4>Not included</h4><ul><li>Copywriting (quoted separately)</li><li>Printing</li><li>Paid stock photos or fonts (cost passed on only if you ask for them)</li></ul></div></div></details><a class="btn solid cta-form" data-pkg="Single Flyer" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Single%20Flyer.">Get started</a></div><div class="tiers"><div class="tier"><h4>Standard</h4><span class="tp"><span data-ngn="₦15,000" data-usd="$12">₦15,000</span></span><p>1 flyer in 1 size (social post or A4), 1 concept built from your text, logo and photos.</p><p class="when">First draft in 2 days</p></div><div class="tier"><h4>Premium</h4><span class="tp"><span data-ngn="₦25,000" data-usd="$20">₦25,000</span></span><p>2 concepts to choose from, custom photo cut-outs and graphic elements, plus a print-ready PDF.</p><p class="when">First draft in 3 days</p></div></div></div>
+<div class="svc"><div class="svc-info"><h3>Event Branding</h3><p>A matching identity for your event, from the main flyer to social posts and banners.</p><p class="small">Need it in under 48 hours? Rush delivery adds 30%.</p><details class="more"><summary>Details</summary><div class="two"><div><h4>What I need from you</h4><ul><li>Event name, date, time, venue and theme</li><li>The text for each design, including speakers and sponsors</li><li>Logos and photos of speakers or guests, in good quality</li><li>Your deadline, so I can confirm it is possible</li></ul></div><div><h4>Not included</h4><ul><li>Printing, event photography or video</li><li>Name tags, programmes and other designs not listed (quoted separately)</li></ul></div></div><p class="small">2 revision rounds per design.</p></details><a class="btn solid cta-form" data-pkg="Event Branding" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Event%20Branding.">Get started</a></div><div class="tiers"><div class="tier"><h4>Event Essentials</h4><span class="tp"><span data-ngn="₦60,000" data-usd="$48">₦60,000</span></span><p>Theme colours, fonts and motif, the main flyer and 3 social posts.</p><p class="when">First draft in 4 days</p></div><div class="tier"><h4>Full Branding</h4><span class="tp"><span data-ngn="₦200,000" data-usd="$160">₦200,000</span></span><p>Identity, main flyer, 6 social posts, 3 story designs, a print-ready banner, an invitation or ticket and up to 3 speaker flyers.</p><p class="when">First draft in 7 days</p></div></div></div>
+<div class="svc"><div class="svc-info"><h3>Brand Identity</h3><p>Your logo, colours and fonts, plus a guide that keeps everything consistent.</p><details class="more"><summary>Details</summary><div class="two"><div><h4>What I need from you</h4><ul><li>Business name, what you sell, who you sell to and what makes you different</li><li>Words that describe how your brand should feel</li><li>Two or three brands you admire, and any colours to keep or avoid</li><li>Any existing logo or materials, if you’re refreshing a brand</li></ul></div><div><h4>Not included</h4><ul><li>A new concept after you’ve chosen a direction (counts as a new project)</li><li>Packaging, signage, website design and printing</li><li>Trademark registration or legal checks on your name</li></ul></div></div><p class="small">2 revision rounds on your chosen concept.</p></details><a class="btn solid cta-form" data-pkg="Brand Identity" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Brand%20Identity.">Get started</a></div><div class="tiers"><div class="tier"><h4>Essential</h4><span class="tp"><span data-ngn="₦120,000" data-usd="$95">₦120,000</span></span><p>Logo (2 concepts, 1 refined) with an alternate version, colour palette and fonts, a mini brand guide, and a social profile image and cover.</p><p class="when">Concepts in 5 days, finals in 10</p></div><div class="tier"><h4>Complete</h4><span class="tp"><span data-ngn="₦250,000" data-usd="$200">₦250,000</span></span><p>Logo (3 concepts) in all versions, a 10 to 12 page brand guide, business card, letterhead, social profile image and cover, 5 post templates and vector files.</p><p class="when">Concepts in 7 days, finals in 14</p></div></div></div>
+<div class="svc"><div class="svc-info"><h3>Brand and Social Design Pack</h3><p>A brand kit plus ready-to-use social media designs, so your page looks like a brand people remember.</p><details class="more"><summary>Details</summary><div class="two"><div><h4>What every pack includes</h4><ul><li>Brand kit: colour palette with codes, a font pairing and a one-page usage sheet</li><li>Feed posts sized for Instagram and Facebook, and vertical story designs</li><li>Full Pack only: up to 5 highlight covers and a profile image adapted to your new look</li><li>Final files in PNG and JPG, organised in folders</li></ul></div><div><h4>What I need and not included</h4><ul><li>Business name, what you sell and who you sell to; your logo if you have one</li><li>The text for each post, photos if you want them used, and pages you like</li><li>Not included: logo design from scratch, printing files, packaging, editable source files (on request), posting or running your pages</li></ul></div></div><p class="small">Each design is priced individually, with packs offering better value for brands that need consistent content.</p></details><a class="btn solid cta-form" data-pkg="Brand and Social Design Pack" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Brand%20and%20Social%20Design%20Pack.">Get started</a></div><div class="tiers"><div class="tier"><h4>Starter Pack</h4><span class="tp"><span data-ngn="₦100,000" data-usd="$80">₦100,000</span></span><p>Brand kit, 4 feed posts and 2 stories (6 designs in total). PNG and JPG files.</p><p class="when">First draft by end of Day 3</p></div><div class="tier"><h4>Full Pack</h4><span class="tp"><span data-ngn="₦180,000" data-usd="$140">₦180,000</span></span><p>Brand kit, 10 feed posts, 3 stories, up to 5 highlight covers and a profile image refresh (13 designs in total). PNG and JPG files.</p><p class="when">First draft by end of Day 4</p></div></div></div>
+<div class="svc"><div class="svc-info"><h3>Monthly Design Retainer</h3><p>Designs and captions in your brand style every month, so your page keeps posting. Month-to-month.</p><p class="small">Add a 30-second AI ad to any month at the AI ad price.</p><details class="more"><summary>Details</summary><div class="two"><div><h4>What I need from you</h4><ul><li>A brief at the start of each month with your goals, promos and key dates</li><li>Text, prices and photos for the designs, sent in the first week</li><li>Feedback within 48 hours, so the month does not slip</li><li>Unused designs do not roll over, so send materials early</li></ul></div><div><h4>How it works and what’s not included</h4><ul><li>Pay 50% to start the month and 50% on day 15, before the final batch is released</li><li>Month-to-month: stop at the end of any paid month, with notice before the next one starts</li><li>Extra designs are quoted from ₦10,000 each, and a 30-second AI ad can be added to any month</li><li>Not included: posting, scheduling and community management, ad spend or paid campaigns, logo or website design, printing files</li></ul></div></div><p class="small">I cannot promise a number of sales. I deliver the creative and tell you honestly what the data shows.</p></details><a class="btn solid cta-form" data-pkg="Monthly Design Retainer" href="https://wa.me/2348134886249?text=Hi%20Iyke%2C%20I%20want%20to%20start%20the%20Monthly%20Design%20Retainer.">Get started</a></div><div class="tiers"><div class="tier"><h4>Lite</h4><span class="tp"><span data-ngn="₦75,000" data-usd="$60">₦75,000</span> <span class="per">per month</span></span><p>6 designs, 4 captions and chat support.</p><p class="when">Weekly batches</p></div><div class="tier"><h4>Standard</h4><span class="tp"><span data-ngn="₦195,000" data-usd="$150">₦195,000</span> <span class="per">per month</span></span><p>12 designs, 8 captions, a monthly 30-minute check-in and priority queue.</p><p class="when">Weekly batches of 3</p></div><div class="tier"><h4>Growth</h4><span class="tp"><span data-ngn="₦280,000" data-usd="$225">₦280,000</span> <span class="per">per month</span></span><p>20 designs, 12 captions, 2 monthly check-ins, priority queue and 48-hour turnaround on urgent requests.</p><p class="when">Weekly batches of 5</p></div></div></div>
+</div>
+  <p class="pay"><strong>Payment:</strong> AI videos, bundles, brand identity and event branding are 50% to start and 50% before final files are released. Single flyers are paid in full before work starts. Retainers are 50% to start the month and 50% on day 15. Dollar prices apply to payments made in dollars. They are listed prices set separately from the naira prices, not a live exchange-rate conversion.</p>
+  <p class="pay"><strong>Terms:</strong> deposits are non-refundable once work has started. After full payment, the final files are yours to use commercially for your own brand, including paid ads. Until then, files remain mine. I may show finished work in my portfolio unless you ask me not to when you order. Read the full <a href="#terms">terms</a>.</p>
+  <p class="pay"><strong>Timelines:</strong> delivery times are production days. They start once I have your deposit, a complete brief and, for videos, your approved script, and they pause while I wait for your feedback or materials. Setting up a domain or payment gateway depends on your providers and can add time.</p>
+</section>
+<section class="learn" id="classes">
+  <div class="learn-inner">
+    <h2>Classes</h2>
+    <p class="lede">Learn AI content creation directly from me.</p>
+    <article class="course lab">
+      <div class="lab-main">
+        <p class="kicker">Live on Telegram · 3 nights · Only 30 seats</p>
+        <h3>AI Avatar &amp; Video Lab</h3>
+        <p>From a single text prompt to a talking digital avatar and video content people pay for. A 2-hour live session every night, plus assignments.</p>
+        <ol class="sess"><li><span class="sn">01</span><div><strong>Prompt &amp; Create</strong><p>Craft prompts for consistent, studio-quality AI characters.</p></div><span class="sd">Fri, Nov 27</span></li><li><span class="sn">02</span><div><strong>Animate &amp; Speak</strong><p>Add motion, lip-sync and AI video to your images.</p></div><span class="sd">Sat, Nov 28</span></li><li><span class="sn">03</span><div><strong>Brand &amp; Monetize</strong><p>Design your logo, polish footage, and start earning.</p></div><span class="sd">Sun, Nov 29</span></li></ol>
+        <div class="lab-prices">
+          <div class="lab-early"><span class="lp-label">Early bird</span><span class="lp-price"><span data-ngn="₦27,500" data-usd="$20">₦27,500</span></span><span class="lp-note">Ends Nov 21</span></div>
+          <div><span class="lp-label">Standard</span><span class="lp-price"><span data-ngn="₦34,500" data-usd="$25">₦34,500</span></span><span class="lp-note lp-after">After Nov 21</span></div>
+        </div>
+        <p class="more"><strong>Free e-books included:</strong> Virtual Influencer Playbook, Value Framing Handbook and The Art of Saying No.</p>
+        <a class="btn light" href="https://nestuge.com/g_i3amn4_" target="_blank" rel="noopener">Join the Lab</a>
+      </div>
+      <img width="640" height="790" class="lab-img" src="assets/img-21.webp" alt="Poster for the AI Avatar and Video Lab, live on Telegram on 27, 28 and 29 November" loading="lazy">
+    </article>
+    </div>
+</section>
+<section class="shop" id="products">
+  <div class="learn-inner">
+    <h2>Digital products</h2>
+    <p class="lede">Guides for creators and freelancers who want to price better and build income with AI.</p>
+    <div class="products">
+<article class="product"><img width="520" height="932" src="assets/img-22.webp" alt="Cover of The Art of Refusal by Innocent Ikechukwu Emmanuel" loading="lazy"><p class="kicker2">A field guide for the deliberately unavailable</p><h3>The Art of Refusal</h3><p>Engineering scarcity in a crowded market. For photographers, virtual assistants and social media managers who are ready to stop competing on price.</p><div class="pprice">₦5,000</div><a class="btn solid" href="https://nestuge.com/hymflbero" target="_blank" rel="noopener">Get it now</a></article>
+<article class="product"><img width="520" height="932" src="assets/img-23.webp" alt="Cover of The Value Frame by Innocent Ikechukwu Emmanuel" loading="lazy"><p class="kicker2">A manifesto for creative pricing power</p><h3>The Value Frame</h3><p>How AI video creators escape the race to the bottom and get paid like experts. For editors, motion designers and AI creators tired of working for scraps.</p><div class="pprice">₦5,000</div><a class="btn solid" href="https://nestuge.com/7w2wzpc-d" target="_blank" rel="noopener">Get it now</a></article>
+<article class="product"><img width="520" height="932" src="assets/img-24.webp" alt="Cover of The AI Digital Product Playbook by Innocent Ikechukwu Emmanuel" loading="lazy"><p class="kicker2">Passive income streams for creators</p><h3>The AI Digital Product Playbook</h3><p>From active freelancing to automated income: build stock footage, graphic bundles and template libraries with AI, then set up funnels to sell them.</p><div class="pprice">₦5,000</div><a class="btn solid" href="https://nestuge.com/otsypg0sa" target="_blank" rel="noopener">Get it now</a></article>
+<article class="product"><img width="520" height="932" src="assets/img-25.webp" alt="Cover of The Virtual Influencer Blueprint by Innocent Ikechukwu Emmanuel" loading="lazy"><p class="kicker2">From AI generation to brand sponsorships</p><h3>The Virtual Influencer Blueprint</h3><p>A practical guide to designing a believable AI persona, building a content engine around it, and earning through brand partnerships.</p><div class="pprice">₦5,000</div><a class="btn solid" href="https://nestuge.com/e_msoefq3" target="_blank" rel="noopener">Get it now</a></article>
+</div>
+  </div>
+</section>
+<section class="shop faqsec" id="faq"><div class="learn-inner"><h2>Questions people ask</h2><p class="lede">Short answers before you message me.</p><div class="faq"><details><summary>How do I start?</summary><p>Pick a package and click Get started, then fill in the short order form. I reply within one business day with your invoice. Work begins once the deposit and a complete brief are in.</p></details><details><summary>How does payment work?</summary><p>AI videos, bundles, brand identity and event branding are 50% to start and 50% before final files are released. Single flyers are paid in full before work starts. Retainers are 50% to start the month and 50% on day 15.</p></details><details><summary>Do I own the work after I pay?</summary><p>Yes. After full payment, the final files are yours to use commercially for your own brand, including paid ads. For websites, the balance is due before your domain launch or the transfer of website ownership.</p></details><details><summary>Who pays for the domain and hosting?</summary><p>Domain purchase and hosting subscription costs are not included in website prices. I can help set up your domain and hosting for <span data-ngn="₦15,000" data-usd="$12">₦15,000</span>, and my maintenance plans cover backups, security checks and updates.</p></details><details><summary>What if I need more revisions?</summary><p>Every project includes 2 rounds. Extra rounds are <span data-ngn="₦40,000" data-usd="$32">₦40,000</span> for AI videos and <span data-ngn="₦30,000" data-usd="$25">₦30,000</span> for websites. Extra rounds for designs are quoted before I start.</p></details><details><summary>Can I get a refund?</summary><p>Deposits are non-refundable once work has started, because the planning and generation costs are already spent. If your scope changes, I send a written quote before doing any extra work.</p></details><details><summary>How fast will I get my work?</summary><p>Delivery times are production days. They start once I have your deposit, a complete brief and, for videos, your approved script, and they pause while I wait for your feedback or materials.</p></details><details><summary>Can I pay in dollars?</summary><p>Yes. Dollar prices apply to payments made in dollars and sit beside the naira prices. Use the ₦ / $ switch in the pricing section.</p></details><details><summary>Can I see examples first?</summary><p>Yes. See my work above. Each project is labelled as client work or concept work.</p></details></div></div></section>
+<section class="contactsec" id="contact">
+  <div class="learn-inner">
+    <h2>Contact me</h2>
+    <p class="lede">Have a project, a class or a product in mind? Reach me on any of these.</p>
+    <div class="reach">
+      <a class="btn light" href="https://wa.me/2348134886249" target="_blank" rel="noopener">WhatsApp +234 813 488 6249</a>
+    </div>
+    <p class="mail">innocentikechukwu404@gmail.com</p>
+    <div class="socials"><a class="social" href="https://www.facebook.com/share/1CTV9Vco8U/" target="_blank" rel="noopener"><strong>Facebook</strong><span>Innocent Ikechukwu Emmanuel</span></a><a class="social" href="https://www.tiktok.com/@iyke.visuals" target="_blank" rel="noopener"><strong>TikTok</strong><span>@iyke.visuals</span></a><a class="social" href="https://instagram.com/iyke.visuals" target="_blank" rel="noopener"><strong>Instagram</strong><span>@iyke.visuals</span></a><a class="social" href="https://x.com/iyke_visuals" target="_blank" rel="noopener"><strong>X</strong><span>@iyke_visuals</span></a><a class="social" href="https://www.linkedin.com/in/ikechukwu-emmanuel-innocent-ba8a053a4" target="_blank" rel="noopener"><strong>LinkedIn</strong><span>Innocent Ikechukwu Emmanuel</span></a><a class="social" href="https://substack.com/@iykevisuals" target="_blank" rel="noopener"><strong>Substack</strong><span>@iykevisuals</span></a></div>
+    <form class="msg" id="msg-form">
+      <h3>Send me a message</h3>
+      <div class="row">
+        <div class="field"><label for="m-name">Full name</label><input id="m-name" name="name" type="text" autocomplete="name" required></div>
+        <div class="field"><label for="m-email">Email address</label><input id="m-email" name="email" type="email" autocomplete="email" required></div>
+      </div>
+      <div class="field"><label for="m-topic">What is this about?</label>
+        <select id="m-topic" name="topic" required>
+          <option value="" disabled selected>Choose one</option>
+          <option>AI commercial</option><option>Design or brand identity</option><option>Website</option><option>Design + AI bundle</option><option>Class</option><option>Digital product</option><option>Something else</option>
+        </select></div>
+      <div class="field"><label for="m-msg">Your message</label><textarea id="m-msg" name="message" rows="5" required></textarea></div>
+      <button class="btn light" type="submit">Send message</button>
+      <p class="fine" id="msg-note"></p>
+    </form>
+    <div class="legal"><details id="terms"><summary>Terms of service</summary><h3>Terms of service</h3>
+<ul>
+<li><strong>Payment.</strong> Payment is by bank transfer, with details sent on your invoice. AI videos, bundles, brand identity, event branding and websites are 50% to start and 50% before final files are released (for websites, before your domain launch or the transfer of website ownership). Single flyers are paid in full before work starts. Retainers are 50% to start the month and 50% on day 15.</li>
+<li><strong>Deposits.</strong> Deposits are non-refundable once work has started, because the planning and generation costs are already spent.</li>
+<li><strong>Revisions.</strong> A round means one consolidated list of changes sent together. A new concept after approval, or a rebuild of most of the work, counts as a new project.</li>
+<li><strong>Ownership.</strong> After full payment, the final deliverables are yours to use commercially for your own brand, including paid ads. Until the balance is paid, files remain mine.</li>
+<li><strong>Portfolio.</strong> I may show finished work in my portfolio and on my pages. Tell me when you order if you want it kept private.</li>
+<li><strong>Timelines.</strong> Delivery times start once I have your deposit, a complete brief and, for videos, your approved script. Late feedback or missing materials pause the clock.</li>
+<li><strong>Changes in scope.</strong> If the work grows beyond what is listed, I send a written quote before doing it.</li>
+<li><strong>AI-generated work.</strong> Visuals are created with AI tools and can sometimes look imperfect. I review every shot and regenerate until it is polished. I do not copy copyrighted characters, brands or the likeness of real public figures. Some platforms have rules about labelling AI content in ads. I will flag where this may apply, but what you post and how you label it is your responsibility.</li>
+<li><strong>Websites.</strong> Domain purchase, hosting subscriptions and third-party plugin licences are not included unless stated.</li>
+<li><strong>Communication.</strong> I reply within one business day.</li>
+</ul></details><details id="privacy"><summary>Privacy notice</summary><h3>Privacy notice</h3>
+<p>Last updated: November 2026. This is a plain-language summary of how I handle your information.</p>
+<ul>
+<li><strong>What I collect.</strong> The details you give me when you fill in a form or message me: your name, email address, WhatsApp number, business name, project details, any files you upload, and your messages.</li>
+<li><strong>Why.</strong> To reply to your enquiry, prepare quotes and invoices, deliver your project, and send class details.</li>
+<li><strong>Where it is stored.</strong> My forms are run by Tally, so your answers are stored there and sent to me by email. Conversations may also happen on WhatsApp or by email. Classes and digital products are sold through Nestuge and Telegram, which handle your information under their own policies.</li>
+<li><strong>Sharing.</strong> I use your information only to run your project and do not sell it.</li>
+<li><strong>Your rights.</strong> The Nigeria Data Protection Act 2023 gives you rights over your personal data. To ask for a copy of your information, to correct it or to have it deleted, email innocentikechukwu404@gmail.com.</li>
+</ul></details></div>
+    <p class="foot">© 2026 IykeVisuals · Innocent Ikechukwu Emmanuel · This website was built entirely with AI · <a href="#terms">Terms</a> · <a href="#privacy">Privacy</a></p>
+  </div>
+</section>
+<script>
+(function(){
+  var btns=document.querySelectorAll('.cur button');
+  btns.forEach(function(b){
+    b.addEventListener('click',function(){
+      var c=b.getAttribute('data-cur');
+      btns.forEach(function(o){o.setAttribute('aria-pressed',o===b);});
+      document.querySelectorAll('[data-ngn]').forEach(function(el){el.textContent=el.getAttribute('data-'+c);});
+    });
+  });
+})();
+</script>
+<script>
+(function(){
+  var tabs=document.querySelectorAll('.process .tab');
+  tabs.forEach(function(t){
+    t.addEventListener('click',function(){
+      tabs.forEach(function(o){
+        var on=o===t;
+        o.setAttribute('aria-selected',on);
+        document.getElementById(o.getAttribute('aria-controls')).hidden=!on;
+      });
+    });
+  });
+})();
+</script>
+<script>
+(function(){
+  var t=document.querySelectorAll('.ptab');
+  t.forEach(function(b){b.addEventListener('click',function(){
+    t.forEach(function(o){var on=o===b;o.setAttribute('aria-selected',on);document.getElementById(o.getAttribute('aria-controls')).hidden=!on;});
+  });});
+})();
+</script>
+<script>
+(function(){
+  var t=document.querySelectorAll('.work .tab');
+  t.forEach(function(b){b.addEventListener('click',function(){
+    t.forEach(function(o){var on=o===b;o.setAttribute('aria-selected',on);document.getElementById(o.getAttribute('aria-controls')).hidden=!on;});
+  });});
+})();
+</script>
+<script>
+(function(){
+  // Paste your Tally form link between the quotes below, e.g. 'https://tally.so/r/abc123'
+  var FORM_URL='https://tally.so/r/OQarop';
+  if(!FORM_URL)return;
+  document.querySelectorAll('.cta-form').forEach(function(a){
+    a.href=FORM_URL+(FORM_URL.indexOf('?')>-1?'&':'?')+'package='+encodeURIComponent(a.getAttribute('data-pkg'));
+    a.target='_blank';a.rel='noopener';
+  });
+})();
+</script>
+<script>
+(function(){
+  // Paste your Tally contact form link between the quotes, e.g. 'https://tally.so/r/abc123'
+  var CONTACT_FORM_URL='https://tally.so/r/Z98WDv';
+  var WA='https://wa.me/2348134886249?text=';
+  var form=document.getElementById('msg-form'),note=document.getElementById('msg-note');
+  if(!form)return;
+  note.textContent=CONTACT_FORM_URL?'After you click, you will finish and send your message on a short secure form.':'After you click, WhatsApp opens with your message ready to send.';
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(!form.reportValidity())return;
+    var d={name:form.name.value.trim(),email:form.email.value.trim(),topic:form.topic.value,message:form.message.value.trim()};
+    var url;
+    if(CONTACT_FORM_URL){
+      url=CONTACT_FORM_URL+(CONTACT_FORM_URL.indexOf('?')>-1?'&':'?')+Object.keys(d).map(function(k){return k+'='+encodeURIComponent(d[k]);}).join('&');
+    }else{
+      url=WA+encodeURIComponent('Hi Iyke, my name is '+d.name+' ('+d.email+'). Topic: '+d.topic+'. '+d.message);
+    }
+    window.open(url,'_blank','noopener');
+  });
+})();
+</script>
+<script>
+(function(){
+  // Early bird ends after 21 November 2026
+  if(Date.now()>=new Date('2026-11-22T00:00:00').getTime()){
+    document.querySelectorAll('.lab-early').forEach(function(e){e.hidden=true;});
+    document.querySelectorAll('.lp-after').forEach(function(e){e.textContent='Current price';});
+  }
+})();
+</script>
+<script>
+(function(){
+  var nav=document.getElementById('topnav'),tg=document.getElementById('navToggle');
+  if(!nav||!tg)return;
+  function setOpen(o){nav.classList.toggle('open',o);tg.setAttribute('aria-expanded',o);tg.textContent=o?'Close':'Menu';}
+  tg.addEventListener('click',function(){setOpen(!nav.classList.contains('open'));});
+  nav.querySelectorAll('.nav-links a').forEach(function(a){a.addEventListener('click',function(){setOpen(false);});});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')setOpen(false);});
+  if(!('IntersectionObserver' in window))return;
+  var links={};
+  nav.querySelectorAll('.nav-links a').forEach(function(a){links[a.getAttribute('href').slice(1)]=a;});
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(e.isIntersecting){
+        Object.keys(links).forEach(function(k){links[k].classList.toggle('active',k===e.target.id);});
+      }
+    });
+  },{rootMargin:'-40% 0px -55% 0px'});
+  Object.keys(links).forEach(function(k){var el=document.getElementById(k);if(el)io.observe(el);});
+})();
+</script>
+<script>
+(function(){
+  document.querySelectorAll('[data-tab]').forEach(function(a){
+    a.addEventListener('click',function(){
+      var b=document.querySelector('.ptab[aria-controls="'+a.getAttribute('data-tab')+'"]');
+      if(b)b.click();
+    });
+  });
+  function openHash(){
+    var id=location.hash.slice(1);if(!id)return;
+    var el=document.getElementById(id);
+    if(el&&el.tagName==='DETAILS'){el.open=true;}
+  }
+  window.addEventListener('hashchange',openHash);openHash();
+})();
+</script>
+</body>
+</html>
